@@ -1,4 +1,4 @@
-const API_KEY = '616cb726-cd84-4584-b6b5-8188eb2b0d26'
+const API_KEY = ''
 
 const BASE_URL = "https://api.thecatapi.com/v1/"
 const URL_RANDOM = `${BASE_URL}images/search?limit=2`
