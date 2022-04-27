@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michis App</title>
+</head>
+
+<body>
+    <h1>Michis aleatorios</h1>
+    <button id="btnRandom">Otro Gato</button>
+    <span id="error"></span>
+
+    <section id="randomMichis">
+        <h2>Michis aleatorios</h2>
+        <article>
+            <img id="img1" width="150" src="" alt="gatitoAleatorio" srcset="">
+            <button id="btnFav1">Guardar michi en favortios</button>
+        </article>
+        <article>
+            <img id="img2" width="150" src="" alt="gatitoAleatorio" srcset="">
+            <button id="btnFav2">Guardar michi en favortios</button>
+        </article>
+
+    </section>
+
+    <section id="uploading">
+        <h2>Sube la foto de tu michi</h2>
+        <form id="uploadingForm">
+            <input id="file" type="file" name="file" onchange="miniatura()" />
+            <button type="button" onclick="uploadMichiPhoto()">Subir foto de michis</button>
+
+        </form>
+
+    </section>
+
+    <section id="favouriteMiches">
+        <h2>Michis favoritos</h2>
+        <article>
+            <!-- <img id="img1" width="150" src="" alt="gatitoAleatorio" srcset="">
+            <button>Sacar Michis de favortios.</button> -->
+        </article>
+    </section>
+
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
